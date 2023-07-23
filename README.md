@@ -1,5 +1,5 @@
 # sidekiq and worker
-This repo have the directory app_sample with a ruby application that runs a sidekiq worker and directory sidekiq which have sidekiq web UI.
+This repo have a dockerized stack which contains: the directory app_sample with a ruby application that runs a sidekiq worker and directory sidekiq which have sidekiq web UI.
 
 ## stack requeriments
 Bellow the requeriments and the order to deploy the stack
