@@ -9,5 +9,4 @@ RUN gem install bundler -v 2.3.22
 RUN bundle install
 COPY . /app
 
-#CMD [ "bundle", "exec", "sidekiq", "-r", "/app/worker.rb" ]
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT [ "bundle", "exec", "sidekiq", "-r", "/app/worker.rb" ]
