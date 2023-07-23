@@ -1,7 +1,7 @@
-## sidekiq and worker
+# sidekiq and worker
 This repo have the directory app_sample with a ruby application that runs a sidekiq worker and directory sidekiq which have sidekiq web UI.
 
-# stack requeriments
+## stack requeriments
 Bellow the requeriments and the order to deploy the stack
 
 1. Redis
