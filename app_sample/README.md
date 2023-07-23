@@ -1,7 +1,5 @@
 
-```
-bundle exec sidekiq -r ./worker.rb
-```
+## Run the commands bellow to put workloads on worker
 ```
 bundle exec irb -r ./worker.rb
 ```
